@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Sentinel Gaming Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    
+    
+    h1 { text-align:center; color:white; }
+    h2 { text-align:center; color:white;  }
+    h6 { text-align:center; color:white; font-size: 10px; }
+    p {  text-align:center; color:white; font-size: 20px;}
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+   /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+} 
+
+.gallery-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.thumbnails div {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background: #aaa;
+  border-radius: 100%;
+}
+
+.thumbnails div.highlighted {
+  background-color: #777;
+}
+
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  width: 540px;
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mySlides {display: none};
+    
+    </style>
+<body style="background-color:black;">
+    >
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Us</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rising Phoenix Roleplay</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">Our Creators<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="Adairzdraws.html" class="w3-bar-item w3-button">AdairDrawz</a>
+          <a href="#" class="w3-bar-item w3-button">JiffyPooh Gaming</a>
+          <a href="#" class="w3-bar-item w3-button">TheChunkyMagpie</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<div class="container"></div>
+<div class="centered"><h1>Welcome to Yabai.Adair's Portiflo</h1></div>
+<img src="images/adair.jpg" alt="its a Me Adair" width="100" height="500" class="center">
+<h1> About Me</h1>
+<p>Hi Guys I am Yabaiadair and Welcome to my Portiflo. I am Person Who Loves to Spend time with My Family. Play Games Like Hogwarts Legacy Which I Beat Before Most of My Friends.But Most Of All I love to Draw. Drawing is One of My Favorite Past Times. With That In Mind I partnered with a Friend to create this.</p>
+<h1> Here is Some of my Work</h1>
+<marquee behavior="scroll" direction="left">
+    <img src="images/IMG_0229.jpg" width="500" height="500" alt="adairz Drawz">
+    <img src="images/IMG_0230.jpg" width="500" height="500" alt="Adair Drawz">
+    <img src="images/IMG_0231.jpg" width="500" height="500" alt="Adair Drawz">
+    <img src="images/IMG_0232.jpg" width="500" height="500" alt="Adair Drawz">
+    </marquee>
+   
+
+<h1>How to Get in Touch</h1>
+<p> You Can email me at queenadair@sentinelgamingdevelopment.com or DM me on Instagram</p>
+<h6> Notice: This Page is a Work in Progress and is Maintained By SGD. SGD or SentinelgamingDevelopment is the host of this Page for Questions of any Kind vist our Contact us Page or email us at webmaster@sentinelgamingdevelopment.com</h6>
+
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+  }
+   
+  
+   </script>
+</body>
+</html>
